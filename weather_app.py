@@ -72,4 +72,4 @@ st.markdown(f"**Temperature:** {temperature} °{unit}")
 
 # City image
 img_url = "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/324559494_3356789117937588_8292850894080733994_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=PvaBzsVhEskQ7kNvwFUSe_Z&_nc_oc=AdkVVQu5NhvX4_7LLeFrwYPmgqeoLWBHjJZfytDlvqzI_QzX9aEPC5doRWwHeNRCMrwwN72J7jjTQZUhRNIjmSIo&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Uj-rBuTix3n5uBsXuqWQtQ&oh=00_AfKOCH8ai37cyKFFY1xQCr9cDS9kPMJvpsDozkgoHZW5kQ&oe=6845A6BC"
-st.image(img_url, caption="🌆 City View", use_column_width=True)
+st.image(img_url, caption="🌆 City View", use_container_width=True)
